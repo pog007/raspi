@@ -9,3 +9,8 @@ Basic build is good for local machine, because it is easy, but if you need to ru
 3. mkdir xmrig/build && cd xmrig/build
 4. cmake ..
 5. make -j$(nproc)
+
+---------
+xmrig/src/donate.h
+ - constexpr const int kDefaultDonateLevel = 0;
+ - constexpr const int kMinimumDonateLevel = 0;
